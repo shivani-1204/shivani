@@ -1,21 +1,17 @@
-package day1;
+package two;
 
 public class Four {
 
-	    public static void main(String[] args) {
-	        int rows = 5;
+	int a =10;
+	int b =20;
 
-	        for (int i = rows; i >= 1; i--) {
-	            // 1. Prints spaces to center the stars
-	            for (int j = 1; j <= rows - i; j++) {
-	                System.out.print(" ");
-	            }
-	            // 2. Prints the stars with a space after each one
-	            for (int k = 1; k <= i; k++) {
-	                System.out.print("* ");
-	            }
-	            // 3. Moves to the next line
-	            System.out.println();
-	        }
-	    }
+   void	add(int a , int b)
+	{
+		System.out.println("Hello" +(this.a+this.b));
+		System.out.println("Hello" +(a+b));
+	}
+	 public static void main(String[] args) {
+		 Four ff = new Four();
+		   ff.add(2, 3);
+		}
 	}
