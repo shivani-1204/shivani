@@ -67,16 +67,16 @@ public class Twenty {
             age[count] = sc.nextInt();
             sc.nextLine();
 
-            System.out.print("Enter the Designation (P20/M30/T25): ");
+            System.out.print("Enter the Designation : ");
             designation[count] = sc.nextLine();
 
-            if (designation[count].equalsIgnoreCase("P20")) {
+            if (designation[count].equalsIgnoreCase("Programmer")) {
                 salary[count] = 20000;
             }
-            else if (designation[count].equalsIgnoreCase("M30")) {
+            else if (designation[count].equalsIgnoreCase("Manager")) {
                 salary[count] = 30000;
             }
-            else if (designation[count].equalsIgnoreCase("T25")) {
+            else if (designation[count].equalsIgnoreCase("Tester")) {
                 salary[count] = 25000;
             }
             else {
